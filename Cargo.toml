@@ -3,7 +3,15 @@ name = "rs-strings2offsets"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert delimited strings to cumulative offsets"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-strings2offsets"
+homepage = "https://github.com/takanoriyanagitani/rs-strings2offsets"
+documentation = "https://docs.rs/rs-strings2offsets/latest"
+keywords = ["offset", "convert", "string", "wasi", "serial"]
+
 exclude = [
+  "strings2offsets.wasm",
 ]
 
 [profile.release-wasi]
